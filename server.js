@@ -5,6 +5,7 @@ import bodyParser from 'koa-bodyparser';
 import studentRoutes from './api/routes/studentRoutes';
 import carRoutes from "./api/routes/carRoutes"
 import fruitRoutes from "./api/routes/fruitRoutes"
+import animalRoutes from "./api/routes/animalRoutes"
 
 
 const port = 3000;
@@ -18,6 +19,7 @@ app.use(respond());
 studentRoutes(router);
 carRoutes(router);
 fruitRoutes(router);
+animalRoutes(router);
 
 app.use(router.routes())
         .use(router.allowedMethods());

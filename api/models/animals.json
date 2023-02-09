@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "name": "Bobik",
+        "species": "Dog",
+        "likes": "bones, meat"
+    },
+    {
+        "id": 2,
+        "name": "Xartumcha",
+        "species": "elephant",
+        "likes": "grass, fruits, vegetables"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "id": "1",
+        "title": "Gentra",
+        "brand": "Ravon",
+        "price": "12000"
+    },
+    {
+        "id": "2",
+        "title": "Vesta",
+        "brand": "Lada",
+        "price": "9000"
+    }
+]

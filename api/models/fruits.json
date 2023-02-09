@@ -1,20 +1,26 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "title": "Grapes",
         "country": "Uzbekistan",
         "price": "30000"
     },
     {
-        "id": "2",
+        "id": 2,
         "title": "Mango",
         "country": "Brazil",
         "price": "80000"
     },
     {
-        "id": "3",
+        "id": 3,
         "title": "Apple",
         "country": "Uzbekistan",
         "price": "15000"
+    },
+    {
+        "id": 4,
+        "title": "Apricots",
+        "country": "Uzbekistan",
+        "price": "35000"
     }
 ]

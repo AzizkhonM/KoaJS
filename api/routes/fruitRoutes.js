@@ -1,10 +1,10 @@
-export default function routes(router) {
-    let carController = require('../controllers/carController');
+export default function fruitRoutes(router) {
+    let fruitController = require('../controllers/fruitController');
 
-    router.get('/car', carController.list_all_cars);
-    router.post('/car', carController.create_a_car);
+    router.get('/fruit', fruitController.list_all_fruits);
+    router.post('/fruit', fruitController.create_a_fruit);
 
-    router.get('/car/:id', carController.read_a_car);
-    router.put('/car/:id', carController.update_a_car);
-    router.delete('/car/:id', carController.delete_a_car);
+    router.get('/fruit/:id', fruitController.read_a_fruit);
+    router.put('/fruit/:id', fruitController.update_a_fruit);
+    router.delete('/fruit/:id', fruitController.delete_a_fruit);
 };

@@ -6,6 +6,7 @@ import studentRoutes from './api/routes/studentRoutes';
 import carRoutes from "./api/routes/carRoutes"
 import fruitRoutes from "./api/routes/fruitRoutes"
 import animalRoutes from "./api/routes/animalRoutes"
+import authRoutes from "./api/routes/authRoutes"
 
 
 const port = 3000;
@@ -20,6 +21,7 @@ studentRoutes(router);
 carRoutes(router);
 fruitRoutes(router);
 animalRoutes(router);
+authRoutes(router);
 
 app.use(router.routes())
         .use(router.allowedMethods());
